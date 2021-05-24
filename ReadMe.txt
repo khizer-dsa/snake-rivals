@@ -10,6 +10,7 @@ REQUIREMENTS
 
 
 USAGE
+Run 'snake-khizer.py' file to play the game.
 To control the user snake and the main menu,  a keyboard is used.
 * Snake : Navigate the snake’s movement through ↑, ↓, ←, → keys or W, A, S and D keys.
 * Worm: To find worm’s next moving direction, D, the bot snake follows the steps below:
