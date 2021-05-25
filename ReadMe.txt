@@ -1,11 +1,11 @@
 ﻿Snake Rivals
 OVERVIEW
 Snake Rivals is an updated version of the classic snake game which includes two snakes; one is the user snake which is controlled by the user through the keyboard and the other one is a bot snake which runs automatically using breadth-first search (BFS) and the Dijkstra’s algorithm to find the shortest route to the food. We will be calling the user snake as ‘snake’ and the bot snake as ‘worm’. Basically, the snake and worm try to reach the food and whoever eats it first scores a point.
+
 REQUIREMENTS
 * Python 
 * pygame module should be installed
 * Fonts and images that are in the zip folder
-
 
 USAGE
 To control the user snake and the main menu,  a keyboard is used.
@@ -22,9 +22,9 @@ To control the user snake and the main menu,  a keyboard is used.
    2. Press ‘p’ to pause the game.
    3. Press ‘u’ to unpause the game.
   
-
 Green snake = snake (user)
 Red and green snake = worm (auto-snake)
+
 MODALITIES
 1. The Snake and Worm must not touch the boundaries. Failing to do so will lead to the ‘Game Over’ screen.
 2. The Snake and Worm must not touch each other. Failing to do so will lead to the ‘Game Over’ screen.
@@ -32,13 +32,14 @@ MODALITIES
 4. For every apple the snake/worm eats, the length of the snake/worm extends by 1 cell size.
 5. Each player’s score is equal to the number of apples eaten since the start of the game.
 
-
 Data Structures Used:
 1. Queues
 2. Dictionary
 3. Breadth-first search (BFS) 
 4. Dijkstra
 5. Graphs
+
+
 References:
 [1] https://www.sourcecodester.com/tutorials/python/11784/python-pygame-simple-main-menu-selection.html (main menu)
 [2] https://www.youtube.com/watch?v=--nsd2ZeYvs (tutorial)
