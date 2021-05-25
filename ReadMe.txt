@@ -1,4 +1,5 @@
-﻿Snake Rivals
+   Snake Rivals
+ 
 OVERVIEW
 Snake Rivals is an updated version of the classic snake game which includes two snakes; one is the user snake which is controlled by the user through the keyboard and the other one is a bot snake which runs automatically using breadth-first search (BFS) and the Dijkstra’s algorithm to find the shortest route to the food. We will be calling the user snake as ‘snake’ and the bot snake as ‘worm’. Basically, the snake and worm try to reach the food and whoever eats it first scores a point.
 
